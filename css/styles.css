@@ -1,0 +1,243 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+:root {
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --primary-accent-color: #404BBF;
+    --secondary-accent-color: #4D5AE5;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--accent-color);
+}
+
+.tel:hover,
+.tel:focus {
+    color: var(--accent-color);
+}
+
+.email:hover,
+.email:focus {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* =================== HEADER =================== */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-first {
+    color: var(--secondary-accent-color);
+}
+
+.logo-second {
+    color: var(--primary-text-color)
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
+}
+
+.tel,
+.email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color)
+}
+
+/* =================== HERO =================== */
+
+.hero {
+    background-color: var(--primary-text-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: inherit
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+}
+
+/* =================== FEATURES =================== */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.feature-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-text-color)
+}
+
+.feature-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+/* =================== SERVICES =================== */
+
+.services-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-text-color);
+}
+
+/* ================= TEAM MEMBERS ============== */
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-text-color);
+}
+
+.team-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+.team-position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+/* =========== FOOTER ============ */
+
+.page-footer {
+    background-color: var(--primary-text-color);
+}
+
+.footer-logo-first {
+    color:#4D5AE5;
+}
+
+.footer-logo-second {
+    color:#F4F4FD;
+}
+
+.footer-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+/* ======= PORTFOLIO PAGE =========*/
+
+/* ====== Filter buttons ======= */
+
+.filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+/* <!-- =========== Work examples ============== --> */
+
+.work-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+.work-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
