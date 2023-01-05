@@ -33,18 +33,13 @@ line-height: 1.2;
     line-height: 1.5;
 }
 
-.menu-link:hover,
-.menu-link:focus {
-    color: var(--primary-accent-color);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-    background-color: var(--primary-accent-color);
-}
+/* =====/components========= */
 
 /* =================== HEADER =================== */
 
+.page-header {
+    background-color: var(--dark-background-text);
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -67,6 +62,11 @@ line-height: 1.2;
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-text-color)
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--primary-accent-color);
 }
 
 .tel,
@@ -113,6 +113,11 @@ line-height: 1.2;
     color: var(--dark-background-text);
     cursor: pointer;
     background-color: var(--secondary-accent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--primary-accent-color);
 }
 
 /* =================== FEATURES =================== */
