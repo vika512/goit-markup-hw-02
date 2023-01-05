@@ -23,9 +23,9 @@ body {
 }
 
 .name {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 .description {
@@ -72,7 +72,6 @@ line-height: 1.2;
 .tel,
 .email {
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--secondary-text-color)
@@ -95,7 +94,6 @@ line-height: 1.2;
 }
 
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -146,7 +144,6 @@ color: var(--secondary-text-color);
 /* =================== SERVICES =================== */
 
 .services-title {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -161,7 +158,6 @@ color: var(--primary-text-color);
 }
 
 .team-title {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -207,7 +203,6 @@ color: #E7E9FC;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
