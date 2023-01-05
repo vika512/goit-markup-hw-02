@@ -231,3 +231,7 @@ color: var(--primary-text-color);
 .work-description {
 color: var(--secondary-text-color);
 }
+
+.card-text {
+    color: var(--light-background-color);
+}
