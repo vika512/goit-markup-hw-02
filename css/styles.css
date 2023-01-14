@@ -327,12 +327,27 @@ color: var(--secondary-text-color);
 
 /* ====== Filter buttons ======= */
 
-.filters-item {
+
+
+.filter-list {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding-top: 96px;
+}
+
+.filter-item:not(:last-child) {
+    margin-right: 24px;
 }
 
 .filter-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: transparent;
+
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -352,6 +367,24 @@ color: var(--secondary-text-color);
 }
 
 /* <!-- =========== Work examples ============== --> */
+
+.work-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 72px;
+    padding-bottom: 100px;
+}
+
+.work-item:not(:nth-child(3n)) {
+    margin-right: 24px;
+}
+
+.work-item:not(:nth-last-child(-n+3)) {
+    margin-bottom: 48px;
+}
+
 
 .work-name {
 color: var(--primary-text-color);
