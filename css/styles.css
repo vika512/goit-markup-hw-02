@@ -1,3 +1,28 @@
+h1,h2,h3,h4, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
@@ -41,7 +66,40 @@ body {
 .page-header {
     background-color: var(--dark-background-text);
 }
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+}
+.menu-list {
+    display: flex;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+
+}
+
+/* відділяє мейл і тел */
+.address {
+    margin-left: auto;
+    align-items: center;
+}
+/* --- */
+
+.address-list {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
+    margin-right: 76px;
+
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -70,6 +128,10 @@ body {
     color: var(--primary-accent-color);
 }
 
+.email {
+    margin-right: 40px;
+}
+
 .tel,
 .email {
     font-style: normal;
@@ -95,6 +157,9 @@ body {
 }
 
 .hero-title {
+    padding-top: 188px;
+    padding-bottom: 48px;
+
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -103,12 +168,18 @@ body {
 }
 
 .hero-btn {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: transparent;
+
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--dark-background-text);
     cursor: pointer;
@@ -135,8 +206,18 @@ body {
     margin: -1px;
 }
 
+.features-list {
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    column-gap: 24px;
+}
+
 .feature-name {
-color: var(--primary-text-color)
+    margin-bottom: 8px;
+
+    color: var(--primary-text-color)
 }
 
 .feature-description {
@@ -145,7 +226,15 @@ color: var(--secondary-text-color);
 
 /* =================== SERVICES =================== */
 
+.services-list {
+    display: flex;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
 .services-title {
+    margin-bottom: 72px;
+
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -154,13 +243,24 @@ text-transform: capitalize;
 color: var(--primary-text-color);
 }
 
+.services-item {
+    width: calc( (100%-2) * 48 / 3 ) ;
+}
+
 /* ================= TEAM MEMBERS ============== */
+
+.team-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .team {
     background-color: var(--light-background-color);
 }
 
 .team-title {
+margin-bottom: 72px;
+
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -168,6 +268,20 @@ text-align: center;
 text-transform: capitalize;
 color: var(--primary-text-color);
 }
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.team-card {
+    background-color: #FFFFFF;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
 
 .team-name {
 text-align: center;
@@ -184,6 +298,10 @@ color: var(--secondary-text-color);
 .page-footer {
     background-color: var(--primary-text-color);
 }
+.container.footer-container {
+    padding-top: 100px;
+    /* margin-bottom: 16px; */
+}
 
 .footer-logo-first {
     color:var(--secondary-accent-color);
@@ -194,8 +312,12 @@ color: var(--secondary-text-color);
 }
 
 .footer-description {
-letter-spacing: 0.02em;
-color: #E7E9FC;
+    width: 264px;
+    padding-top: 16px;
+    padding-bottom: 100px;
+
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
 }
 
 /* ======= PORTFOLIO PAGE =========*/
