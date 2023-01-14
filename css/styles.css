@@ -211,7 +211,7 @@ body {
     align-items: center;
     padding-top: 120px;
     padding-bottom: 120px;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .feature-name {
@@ -273,7 +273,10 @@ color: var(--primary-text-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    column-gap: 24px;
+}
+
+.team-item:not(:nth-child(4n)) {
+    margin-right: 24px;
 }
 
 .team-card {
@@ -323,6 +326,11 @@ color: var(--secondary-text-color);
 /* ======= PORTFOLIO PAGE =========*/
 
 /* ====== Filter buttons ======= */
+
+.filters-item {
+    display: flex;
+    align-items: center;
+}
 
 .filter-btn {
     font-family: inherit;
